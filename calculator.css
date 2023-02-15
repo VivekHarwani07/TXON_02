@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab";
+}
+
+body{
+    background-image: url('bg1.jpg');
+    background-size: 100% 100%;
+}
+
+.centercalcy{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 400px;
+    height: 520px;
+    box-shadow: 0 0 10px 1px #f4b0b0;
+}
+
+#app_name {
+    width: inherit;
+    font-size: 1.2rem;
+    padding: 2px 0 2px 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+#display_answer{
+    width: inherit;
+    height: 100px;
+    /* background-color: #000000; */
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border-color: #fff;
+    border-width: 1px;
+    color: aliceblue;
+    font-size: 1.5rem;
+    text-align: right;
+    padding: 10px;
+}
+
+.layer_answer{
+    width: inherit; 
+    display: flex; 
+    justify-content: center;
+    height: 50px;
+}
+
+.layer{
+    width: inherit; 
+    display: flex; 
+    justify-content: center;
+    height: 85px;
+}
+
+input{
+    flex: 1;
+    
+}
+
+input:hover{
+    background-color: #063075;
+}
+
+.num{
+    font-size: 1.5rem;
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+    /* background-color: #f1a5ad; */
+    color: #fff;
+}
+
+#clearbutton{
+    font-size: 1rem;
+}
+
+.main_num{
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: black;
+
+}
